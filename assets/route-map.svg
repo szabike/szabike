@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330" role="img" aria-labelledby="t d">
+  <title id="t">Cleared for Takeoff career route map</title>
+  <desc id="d">Five shared ranks, from Aviation Enthusiast to Right-Seat Rising Star, then a choice between Commercial Aviation, ending at Crown of the Skies, and Cargo Aviation, ending at Global Freight Commander.</desc>
+  <style>
+    text { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .line   { fill: none; stroke-width: 6; stroke-linecap: round; }
+    .shared { stroke: #16213E; } .shared-f { fill: #16213E; }
+    .com    { stroke: #7C5CFF; } .com-f    { fill: #7C5CFF; }
+    .cargo  { stroke: #E0951F; } .cargo-f  { fill: #E0951F; }
+    .num    { font-size: 13px; font-weight: 700; fill: #FFFFFF; text-anchor: middle; }
+    .name   { font-size: 17px; fill: #16213E; }
+    .branch { font-size: 17px; font-weight: 700; }
+    .note   { font-size: 15px; fill: #7A869A; }
+    .cargo-n { fill: #16213E; }
+    @media (prefers-color-scheme: dark) {
+      .shared { stroke: #C9D1E0; } .shared-f { fill: #C9D1E0; }
+      .shared-n { fill: #16213E; }
+      .com    { stroke: #9B83FF; } .com-f    { fill: #9B83FF; }
+      .cargo  { stroke: #F2A93B; } .cargo-f  { fill: #F2A93B; }
+      .cargo-n { fill: #16213E; }
+      .name   { fill: #E6EAF2; }
+      .note   { fill: #9AA5B8; }
+    }
+  </style>
+
+  <!-- lines -->
+  <path class="line shared" d="M70,165 L510,165"/>
+  <path class="line com"    d="M510,165 C575,165 570,85 640,85 L1110,85"/>
+  <path class="line cargo"  d="M510,165 C575,165 570,245 640,245 L1110,245"/>
+
+  <!-- shared ranks 1-5 -->
+  <g>
+    <circle class="shared-f" cx="70"  cy="165" r="14"/><text class="num shared-n" x="70"  y="170">1</text>
+    <circle class="shared-f" cx="180" cy="165" r="14"/><text class="num shared-n" x="180" y="170">2</text>
+    <circle class="shared-f" cx="290" cy="165" r="14"/><text class="num shared-n" x="290" y="170">3</text>
+    <circle class="shared-f" cx="400" cy="165" r="14"/><text class="num shared-n" x="400" y="170">4</text>
+    <circle class="shared-f" cx="510" cy="165" r="14"/><text class="num shared-n" x="510" y="170">5</text>
+  </g>
+  <text class="name" x="56" y="210">Aviation Enthusiast</text>
+  <text class="name" x="524" y="210" text-anchor="end">Right-Seat Rising Star</text>
+  <text class="note" x="524" y="232" text-anchor="end">then pick a route</text>
+
+  <!-- commercial 6-10 -->
+  <text class="branch com-f" x="626" y="50">Commercial Aviation</text>
+  <text class="name" x="1124" y="50" text-anchor="end">Crown of the Skies</text>
+  <g>
+    <circle class="com-f" cx="650"  cy="85" r="14"/><text class="num" x="650"  y="90">6</text>
+    <circle class="com-f" cx="765"  cy="85" r="14"/><text class="num" x="765"  y="90">7</text>
+    <circle class="com-f" cx="880"  cy="85" r="14"/><text class="num" x="880"  y="90">8</text>
+    <circle class="com-f" cx="995"  cy="85" r="14"/><text class="num" x="995"  y="90">9</text>
+    <circle class="com-f" cx="1110" cy="85" r="14"/><text class="num" x="1110" y="90">10</text>
+  </g>
+
+  <!-- cargo 6-10 -->
+  <g>
+    <circle class="cargo-f" cx="650"  cy="245" r="14"/><text class="num cargo-n" x="650"  y="250">6</text>
+    <circle class="cargo-f" cx="765"  cy="245" r="14"/><text class="num cargo-n" x="765"  y="250">7</text>
+    <circle class="cargo-f" cx="880"  cy="245" r="14"/><text class="num cargo-n" x="880"  y="250">8</text>
+    <circle class="cargo-f" cx="995"  cy="245" r="14"/><text class="num cargo-n" x="995"  y="250">9</text>
+    <circle class="cargo-f" cx="1110" cy="245" r="14"/><text class="num cargo-n" x="1110" y="250">10</text>
+  </g>
+  <text class="branch cargo-f" x="626" y="292">Cargo Aviation</text>
+  <text class="name" x="1124" y="292" text-anchor="end">Global Freight Commander</text>
+</svg>

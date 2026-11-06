@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-labelledby="t d">
+  <title id="t">Boarding pass for Kecskeméti Szabolcs</title>
+  <desc id="d">Elixify flight ELX 001 from client brief to launched project. Seat: client lead. Gate: elixify.hu.</desc>
+  <style>
+    .sans { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+    .ink { fill: #16213E; }
+    .slate { fill: #7A869A; }
+    .label { font-size: 15px; fill: #7A869A; }
+    .value { font-size: 24px; font-weight: 700; fill: #16213E; }
+    .code { font-size: 88px; font-weight: 800; letter-spacing: -2px; fill: #16213E; }
+    .plane {
+      offset-path: path("M305,214 Q450,140 595,214");
+      offset-rotate: auto;
+      animation: fly 7s cubic-bezier(.45,.05,.35,1) infinite;
+    }
+    @keyframes fly {
+      0%   { offset-distance: 0%;   opacity: 0; }
+      8%   { opacity: 1; }
+      78%  { offset-distance: 100%; opacity: 1; }
+      92%, 100% { offset-distance: 100%; opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .plane { animation: none; offset-distance: 50%; opacity: 1; }
+    }
+  </style>
+
+  <defs>
+    <mask id="notch">
+      <rect width="1200" height="440" fill="#fff"/>
+      <circle cx="872" cy="12" r="20" fill="#000"/>
+      <circle cx="872" cy="428" r="20" fill="#000"/>
+    </mask>
+    <clipPath id="ticket"><rect x="12" y="12" width="1176" height="416" rx="24"/></clipPath>
+  </defs>
+
+  <!-- ticket body -->
+  <g mask="url(#notch)">
+    <g clip-path="url(#ticket)">
+      <rect x="12" y="12" width="1176" height="416" fill="#F4F6FA"/>
+      <rect x="12" y="12" width="860" height="78" fill="#16213E"/>
+      <rect x="872" y="12" width="316" height="78" fill="#7C5CFF"/>
+    </g>
+    <rect x="12.5" y="12.5" width="1175" height="415" rx="24" fill="none" stroke="#D5DAE3"/>
+  </g>
+
+  <!-- perforation -->
+  <line x1="872" y1="40" x2="872" y2="400" stroke="#C2C9D6" stroke-width="2" stroke-dasharray="2 9" stroke-linecap="round"/>
+
+  <!-- header -->
+  <text x="52" y="62" class="sans" font-size="28" font-weight="800" letter-spacing="6" fill="#FFFFFF">ELIXIFY</text>
+  <text x="840" y="60" class="sans" font-size="18" fill="#AEB8CC" text-anchor="end">Boarding pass</text>
+  <text x="904" y="60" class="sans" font-size="18" font-weight="700" fill="#FFFFFF">ELX 001</text>
+
+  <!-- passenger -->
+  <text x="52" y="130" class="sans label">Passenger</text>
+  <text x="52" y="160" class="mono value">KECSKEMETI/SZABOLCS</text>
+
+  <!-- route -->
+  <text x="48" y="262" class="sans code">BRF</text>
+  <text x="52" y="292" class="sans" font-size="17" fill="#4A5568">Client brief</text>
+  <text x="846" y="262" class="sans code" text-anchor="end">LCH</text>
+  <text x="840" y="292" class="sans" font-size="17" fill="#4A5568" text-anchor="end">Launched project</text>
+
+  <path d="M305,214 Q450,140 595,214" fill="none" stroke="#B8C0CE" stroke-width="2" stroke-dasharray="6 8" stroke-linecap="round"/>
+  <circle cx="305" cy="214" r="5" fill="#16213E"/>
+  <circle cx="595" cy="214" r="5" fill="#16213E"/>
+  <path class="plane" fill="#7C5CFF"
+    d="M18,0 C18,-2 15,-3 12,-3 L4,-3 L-6,-15 L-10,-15 L-4,-3 L-12,-3 L-16,-9 L-19,-9 L-17,0 L-19,9 L-16,9 L-12,3 L-4,3 L-10,15 L-6,15 L4,3 L12,3 C15,3 18,2 18,0 Z"/>
+
+  <!-- detail row -->
+  <line x1="52" y1="320" x2="840" y2="320" stroke="#DDE2EA" stroke-width="1.5"/>
+  <text x="52"  y="354" class="sans label">Seat</text>
+  <text x="52"  y="386" class="sans value">Client lead &amp; PM</text>
+  <text x="330" y="354" class="sans label">Gate</text>
+  <text x="330" y="386" class="mono value">elixify.hu</text>
+  <text x="560" y="354" class="sans label">Base</text>
+  <text x="560" y="386" class="sans value">Budapest</text>
+  <text x="740" y="354" class="sans label">Boarding</text>
+  <text x="740" y="386" class="sans value" fill="#C77A06" style="fill:#C77A06">Now</text>
+
+  <!-- stub -->
+  <text x="904" y="130" class="sans label">Passenger</text>
+  <text x="904" y="160" class="mono value">SZABIKE</text>
+  <text x="904" y="204" class="sans label">From</text>
+  <text x="904" y="234" class="sans value" font-size="30">BRF</text>
+  <text x="1040" y="204" class="sans label">To</text>
+  <text x="1040" y="234" class="sans value" font-size="30">LCH</text>
+  <g transform="translate(904,290)" fill="#16213E">
+    <rect x="0" y="0" width="3" height="64"/><rect x="6" y="0" width="2" height="64"/><rect x="12" y="0" width="2" height="64"/><rect x="16" y="0" width="6" height="64"/><rect x="24" y="0" width="4" height="64"/><rect x="30" y="0" width="2" height="64"/><rect x="34" y="0" width="6" height="64"/><rect x="44" y="0" width="3" height="64"/><rect x="52" y="0" width="6" height="64"/><rect x="60" y="0" width="2" height="64"/><rect x="64" y="0" width="3" height="64"/><rect x="71" y="0" width="2" height="64"/><rect x="77" y="0" width="2" height="64"/><rect x="83" y="0" width="2" height="64"/><rect x="89" y="0" width="2" height="64"/><rect x="95" y="0" width="2" height="64"/><rect x="101" y="0" width="4" height="64"/><rect x="109" y="0" width="2" height="64"/><rect x="117" y="0" width="3" height="64"/><rect x="122" y="0" width="2" height="64"/><rect x="127" y="0" width="6" height="64"/><rect x="136" y="0" width="4" height="64"/><rect x="142" y="0" width="2" height="64"/><rect x="146" y="0" width="3" height="64"/><rect x="152" y="0" width="4" height="64"/><rect x="160" y="0" width="2" height="64"/><rect x="166" y="0" width="3" height="64"/><rect x="172" y="0" width="6" height="64"/><rect x="182" y="0" width="2" height="64"/><rect x="188" y="0" width="4" height="64"/><rect x="196" y="0" width="2" height="64"/><rect x="202" y="0" width="6" height="64"/><rect x="213" y="0" width="3" height="64"/><rect x="219" y="0" width="3" height="64"/><rect x="224" y="0" width="4" height="64"/><rect x="232" y="0" width="2" height="64"/><rect x="238" y="0" width="5" height="64"/><rect x="247" y="0" width="2" height="64"/>
+  </g>
+  <text x="904" y="384" class="mono" font-size="14" fill="#7A869A">github.com/szabike</text>
+</svg>
