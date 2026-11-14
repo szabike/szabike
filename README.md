@@ -6,7 +6,7 @@
 
 I'm Szabolcs, 21, based in Budapest. At **[Elixify](https://elixify.hu)** I'm the person clients talk to. I take the first call, turn the brief into a plan, keep the team on schedule and check that what we ship is what was asked for.
 
-During the day I work in German-speaking first-level IT support at **Unisys**, helping the staff of a large restaurant chain when their hardware or software stops working. Before that I booked appointments and coordinated call campaigns at Konecta, and checked in deliveries at a DSV warehouse in Germany, where I also went to school.
+During the day I work in German-speaking first-level IT support at **Unisys**, helping the staff of a large restaurant chain when their hardware or software stops working. Before that I booked appointments and coordinated call campaigns at Konecta, and checked in deliveries at a DSV warehouse in Germany.
 
 After hours I build mods. The first one teaches a Sims 4 household to fly.
 
