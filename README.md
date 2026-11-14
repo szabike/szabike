@@ -21,8 +21,6 @@ After hours I build mods. The first one teaches a Sims 4 household to fly.
 | Feb to Aug 2026 | Konecta Hungária | Call center agent: customer acquisition, appointment booking, campaign coordination |
 | Dec 2024 to Feb 2026 | DSV Solution GmbH, Möckmühl | Warehouse operator: goods-in checks, delivery paperwork, forklift |
 
-School in Möckmühl and Heilbronn in Germany and in Tatabánya in Hungary, where I took the érettségi in 2023.
-
 <h3><img src="./assets/heading-project.svg" width="258" alt="Featured project"/></h3>
 
 <a href="https://github.com/szabike/cleared-for-takeoff">
