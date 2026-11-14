@@ -1,58 +1,50 @@
 <a href="https://elixify.hu">
-  <img src="./assets/boarding-pass.svg" width="100%" alt="Boarding pass: Kecskeméti Szabolcs, Elixify flight ELX 001 from client brief to launched project. Seat: client lead and PM. Gate: elixify.hu."/>
+  <img src="./assets/hero.svg" width="100%" alt="Szabolcs Kecskeméti, client lead at Elixify. From first call to launch: I talk to clients, turn the brief into a plan and keep the project on schedule until it ships."/>
 </a>
 
-### About me
+<h3><img src="./assets/heading-about.svg" width="183" alt="About me"/></h3>
 
-I'm Szabolcs, 21, based in Budapest. During the day I work in German-speaking first-level IT support at **Unisys**, helping the staff of a large restaurant chain when their hardware or software stops cooperating. I'm still in onboarding there, which mostly means I learn something new every shift.
+I'm Szabolcs, 21, based in Budapest. At **[Elixify](https://elixify.hu)** I'm the person clients talk to. I take the first call, turn the brief into a plan, keep the team on schedule and check that what we ship is what was asked for.
 
-I grew up between two countries. I went to school in Hungary and in Germany, in Tatabánya, Möckmühl and Heilbronn, and my first full-time job was in a DSV warehouse in Möckmühl: checking in deliveries, keeping the paperwork straight and driving a forklift when needed. Back in Hungary I spent half a year on the phones at Konecta, booking appointments and coordinating inbound and outbound call campaigns. Every one of those jobs had a queue of people waiting on me, and I learned to keep it moving without making anyone feel rushed.
+During the day I work in German-speaking first-level IT support at **Unisys**, helping the staff of a large restaurant chain when their hardware or software stops working. Before that I booked appointments and coordinated call campaigns at Konecta, and checked in deliveries at a DSV warehouse in Germany, where I also went to school.
 
-That's also what I do at **[Elixify](https://elixify.hu)**. I'm the person clients talk to: I take the first call, turn the brief into a plan, keep the team on schedule and check that what we ship is what was asked for.
-
-After hours I make things for fun. My first mod taught a Sims 4 household to fly.
+After hours I build mods. The first one teaches a Sims 4 household to fly.
 
 **Languages:** Hungarian (native), German (C1), English (C1)
 
-### Current routes
+<h3><img src="./assets/heading-experience.svg" width="261" alt="Experience"/></h3>
 
-| Flight | Operator | What I do there | Status |
-| :-- | :-- | :-- | :-- |
-| `UNI` | Unisys Hungary | German-speaking first-level (L1) IT support | Since Aug 2026 |
-| `ELX` | [Elixify](https://elixify.hu) | Client relations and project management for websites, marketing and social media | Boarding |
-| `CFT` | [Cleared for Takeoff](https://github.com/szabike/cleared-for-takeoff) | Sims 4 pilot career mod, built solo | Beta 0.1.0 |
-
-### Logbook
-
-| Dates | Where | Role |
+| When | Where | What |
 | :-- | :-- | :-- |
-| Feb 2026 to Aug 2026 | Konecta Hungária, Hungary | Call center agent: customer acquisition, appointment booking, campaign coordination |
-| Dec 2024 to Feb 2026 | DSV Solutions, Möckmühl, Germany | Warehouse operator: goods-in checks, delivery paperwork, forklift (German licence) |
-| 2017 to 2023 | Möckmühl, Tatabánya, Heilbronn | School in Germany and Hungary, finishing with the Hungarian érettségi |
+| Now | [Elixify](https://elixify.hu) | Client relations and project management for websites, marketing and social media |
+| Since Aug 2026 | Unisys Hungary | German-speaking first-level (L1) IT support |
+| Feb to Aug 2026 | Konecta Hungária | Call center agent: customer acquisition, appointment booking, campaign coordination |
+| Dec 2024 to Feb 2026 | DSV Solution GmbH, Möckmühl | Warehouse operator: goods-in checks, delivery paperwork, forklift |
 
-### Featured projects
+School in Möckmühl and Heilbronn in Germany and in Tatabánya in Hungary, where I took the érettségi in 2023.
 
-#### Cleared for Takeoff
-
-A ten-level pilot career for The Sims 4. Your Sim starts with a clipboard at ground ops, and at level 5 picks passengers or freight.
+<h3><img src="./assets/heading-project.svg" width="258" alt="Featured project"/></h3>
 
 <a href="https://github.com/szabike/cleared-for-takeoff">
-  <img src="./assets/route-map.svg" width="100%" alt="Career route map: five shared ranks, then Commercial Aviation up to Crown of the Skies or Cargo Aviation up to Global Freight Commander."/>
+  <img src="./assets/cleared-for-takeoff.svg" width="100%" alt="Cleared for Takeoff, a ten-level pilot career mod for The Sims 4. Five shared ranks, then Commercial Aviation up to Crown of the Skies or Cargo Aviation up to Global Freight Commander. 15 ranks, 13 chance cards, JavaScript and Python, beta 0.1.0."/>
 </a>
 
-It has 15 ranks, 13 chance cards with 52 outcomes, 7 daily prep tasks, overnight cargo shifts, and no dependencies beyond the base game. The build tooling is JavaScript and the in-game script is Python.
+It also has 7 daily prep tasks and overnight cargo shifts, and it needs nothing beyond the base game.
 
 **[Download on CurseForge](https://www.curseforge.com/sims4/mods/cleared-for-takeoff-pilot-career)**, **[read the career guide](https://github.com/szabike/cleared-for-takeoff/blob/main/CAREER-GUIDE.md)** or **[browse the source](https://github.com/szabike/cleared-for-takeoff)**.
 
-### How a project flies with me
+<h3><img src="./assets/heading-process.svg" width="280" alt="Working with Elixify"/></h3>
 
-1. **Brief.** We talk through what you need and what done looks like.
-2. **Flight plan.** You get scope, timeline and price in writing before anything starts.
-3. **In the air.** Short check-ins at agreed points, so nothing is a surprise.
-4. **Landing.** Launch, handover and a walkthrough of what you now own.
+Every Elixify project starts with a short, 15-minute call. After that we go step by step.
 
-### Get in touch
+1. **We talk through what you need.** We go into detail on what you want and how you picture it.
+2. **You get a custom quote.** We email a quote for the agreed tasks. You read it, we answer your questions, and you accept by email.
+3. **You meet the team.** You talk with the people who will work on your project, and we settle the details together.
 
-Start a project at **[elixify.hu](https://elixify.hu)**, or open an issue on any of my repos.
+<h3><img src="./assets/heading-contact.svg" width="277" alt="Contact"/></h3>
 
-<sub>Flying with [@Szabolcs05](https://github.com/Szabolcs05), who keeps the Elixify servers in the air.</sub>
+A new website, more consistent marketing, or your own photos and videos? Tell me where you are now and what you want to achieve.
+
+**[Book a 15-minute call](https://www.cal.eu/elixify/15-perc)** or visit **[elixify.hu](https://elixify.hu)**.
+
+<sub>Also at Elixify: [@Szabolcs05](https://github.com/Szabolcs05).</sub>
